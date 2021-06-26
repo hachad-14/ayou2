@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 180vw;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #727272;
+        /*position: fixed;*/
+        /*overflow: hidden;*/
+    }
+    .boxes {
+        position: absolute;
+    }
+    .title {
+        position: absolute;
+        font-family: 'Poppins';
+        font-size: 7vw;
+        color: #fff;
+        font-weight: bold;
+        left: 32vw;
+        top: 10vw;
+    }
+    #firstbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 45vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    .fb-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-size: 6vw;
+        color: #fff;
+        font-weight: bold;
+        top: 49vw;
+        left: 15vw;
+    }
+    #secondbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 88vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    .sb-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-size: 6vw;
+        color: #fff;
+        font-weight: bold;
+        top: 83vw;
+        left: 15vw;
+    }
+    #thirdbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 130vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    .tb-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-size: 6vw;
+        color: #fff;
+        font-weight: bold;
+        top: 115vw;
+        left: 15vw;
+    }
+    #main-page {
+        visibility: visible;
+    }
+    #second-page {
+        visibility: hidden;
+    }
+    /*------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------*/
+    .sp-title {
+        font-family: 'Poppins';
+        font-size: 5.8vw;
+        color: #fff;
+        font-weight: bold;
+        margin-left: 19vw;
+        margin-top: 9.5vw;
+    }
+    #datetime{
+        font-family: 'Poppins';
+        color: #000;
+        position: absolute;
+        top: 25vw;
+        left: 32vw;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    .body {
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 50vw 43.5vw;
+        top: 44vw;
+        left: 6.5vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    #txt {
+        position: absolute;
+        font-family: 'Montserrat';
+        text-align: center;
+        font-size: 5vw;
+        left: 0vw;
+        top:30vw;
+        padding: 0vw 8vw;
+        font-weight: bold;
+    }
+    #r {
+        position: absolute;
+        font-family: 'Montserrat';
+        font-size: 4vw;
+        top: 135vw;
+        left: 30vw;
+    }
+    #sp-arrow {
+        position: absolute;
+        transform: rotate(180deg);
+        width: 9vw;
+        top: 9vw;
+        left: 1vw;
+        filter: invert(100%);
+        z-index: 10;
+        visibility: hidden;
+    }
+}
