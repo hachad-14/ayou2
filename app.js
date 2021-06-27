@@ -43,13 +43,23 @@ $(document).ready(function() {
 
     $("#secondbody").click(function() {
         $("#tp-arrow").click(function() {
-            document.getElementById("third-page").style.visibility = "hidden";
             document.getElementById("main-page").style.visibility = "visible";
+            document.getElementById("third-page").style.visibility = "hidden";
             document.getElementById("tp-arrow").style.visibility = "hidden";
+            document.getElementById("b1").style.visibility = "hidden";
+            document.getElementById("b2").style.visibility = "hidden";
+            document.getElementById("b3").style.visibility = "hidden";
+            document.getElementById("b4").style.visibility = "hidden";
         });
         document.getElementById("main-page").style.visibility = "hidden";
         document.getElementById("third-page").style.visibility = "visible";
         document.getElementById("tp-arrow").style.visibility = "visible";
+        document.getElementById("pre").style.visibility = "visible";
+        document.getElementById("b1").style.visibility = "visible";
+        document.getElementById("b2").style.visibility = "visible";
+        document.getElementById("b3").style.visibility = "visible";
+        document.getElementById("b4").style.visibility = "visible";
+
 
         var todaysDate = new Date();
 
@@ -66,20 +76,20 @@ $(document).ready(function() {
     
             $("#b1").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("arrow").style.visibility = "hidden";
+                document.getElementById("tp-arrow").style.visibility = "hidden";
             });
             $("#b2").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("arrow").style.visibility = "hidden";
+                document.getElementById("tp-arrow").style.visibility = "hidden";
             });
             //vrai------------------------------------
             $("#b3").click(function() {
                 document.getElementById("greenscreen").style.visibility = "visible";
-                document.getElementById("arrow").style.visibility = "hidden";
+                document.getElementById("tp-arrow").style.visibility = "hidden";
             });
             $("#b4").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("arrow").style.visibility = "hidden";
+                document.getElementById("tp-arrow").style.visibility = "hidden";
             });
             
             if($('#redscreen').is(':visible')){
