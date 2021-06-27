@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-          $('#third-page').hide(0);
+          $('#third-page').show(0);
           console.log("cookies en")
     }
   
