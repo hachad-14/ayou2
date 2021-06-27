@@ -297,4 +297,18 @@ body {
         visibility: hidden;
         transition: 1s ease;
     }
+    #popupDiv {
+        color:#000 !important;
+        margin-top: -10vw ;
+        padding: 5px 0px 8px 0px !important;
+        -webkit-border-radius:  5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px !important ;
+        border-radius: 5px 5px 5px 5px;
+        background-color:rgba(100%,100%,100%,1) !important;
+        border-width: 1px !important;
+        border-color: rgba( 0, 20, 45, .5) !important;
+        border-style: solid !important;
+        color: rgba( 0%,0%,0%,1) !important;
+        box-shadow: 2px 2px 2px rgba(0%,0%,0%,0.2) !important;
+    }
 }
