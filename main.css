@@ -215,7 +215,6 @@ body {
         transition: 1s ease;
     }
     #b1 {
-        display: none;
         position: absolute;
         padding: 4vw 10vw;
         background-color: #fff;
