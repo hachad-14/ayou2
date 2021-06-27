@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-          $('#third-page').show();
+          $('#third-page').hide();
     }
   
     // Add the event that closes the popup and sets the cookie that tells us to
