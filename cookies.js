@@ -1,25 +1,14 @@
 $(document).ready(function() {
-
-    // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-      $('#popupDiv').hide();
-      console.log("c fait");
+      $('#messagebox').show();
     }
-  
-    // Add the event that closes the popup and sets the cookie that tells us to
-    // not show it again until one day has passed.
-    $('#b1').click(function() {
-      $('#popupDiv').hide();
-      console.log("c fait");
+    $('#close').click(function() {
+      $('#messagebox').hide();
       createCookie('hide', true, 1)
       return false;
     });
-  
   });
-  
-  // ---
-  // And some generic cookie logic
-  // ---
+
   function createCookie(name,value,days) {
     if (days) {
       var date = new Date();
@@ -29,7 +18,6 @@ $(document).ready(function() {
     else var expires = "";
     document.cookie = name+"="+value+expires+"; path=/";
   }
-  
   function readCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -40,7 +28,6 @@ $(document).ready(function() {
     }
     return null;
   }
-  
   function eraseCookie(name) {
     createCookie(name,"",-1);
   }
