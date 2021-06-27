@@ -14,7 +14,7 @@ body {
         background-color: #727272;
         height: 15vw;
         position: fixed;
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     .boxes {
         position: absolute;
