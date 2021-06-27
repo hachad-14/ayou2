@@ -9,7 +9,6 @@ $(document).ready(function() {
     // Add the event that closes the popup and sets the cookie that tells us to
     // not show it again until one day has passed.
     $('#b1').click(function() {
-        e.preventDefault();
         $('#third-page').hide();
         createCookie('hide', true, 1)
         return false;
