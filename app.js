@@ -75,10 +75,10 @@ $(document).ready(function() {
             document.getElementById("b3").innerHTML = "Mohamed Kamal";
             document.getElementById("b4").innerHTML = "Mohamed Kamal Issam";
     
-            $("#b1").click(function() {
-                document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("tp-arrow").style.visibility = "visible";
-            });
+            //$("#b1").click(function() {
+            //    document.getElementById("redscreen").style.visibility = "visible";
+            //    document.getElementById("tp-arrow").style.visibility = "visible";
+            //});
             $("#b2").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
                 document.getElementById("tp-arrow").style.visibility = "hidden";
