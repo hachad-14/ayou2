@@ -12,7 +12,7 @@ body {
 @media only screen and (max-width: 575px) {
     body {
         background-color: #727272;
-        height: 10vw;
+        height: 15vw;
         position: fixed;
         overflow: hidden;
     }
