@@ -2,13 +2,15 @@ $(document).ready(function() {
 
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-      $('#third-page').show();
+      $('#popupDiv').hide();
+      console.log("c fait");
     }
   
     // Add the event that closes the popup and sets the cookie that tells us to
     // not show it again until one day has passed.
-    $('#close').click(function() {
-      $('#third-page').hide();
+    $('#b1').click(function() {
+      $('#popupDiv').hide();
+      console.log("c fait");
       createCookie('hide', true, 1)
       return false;
     });
