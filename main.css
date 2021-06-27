@@ -31,7 +31,7 @@ body {
     #firstbody{
         position: absolute;
         background-color: #8D8D8D;
-        padding: 18vw 40vw;
+        padding: 13vw 40vw;
         top: 30vw;
         left: 10vw;
         border-radius: 5vw;
@@ -49,8 +49,8 @@ body {
     #secondbody{
         position: absolute;
         background-color: #8D8D8D;
-        padding: 18vw 40vw;
-        top: 73vw;
+        padding: 13vw 40vw;
+        top: 65vw;
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
@@ -61,14 +61,14 @@ body {
         font-size: 6vw;
         color: #fff;
         font-weight: bold;
-        top: 68vw;
+        top: 60vw;
         left: 15vw;
     }
     #thirdbody{
         position: absolute;
         background-color: #8D8D8D;
-        padding: 18vw 40vw;
-        top: 115vw;
+        padding: 13vw 40vw;
+        top: 100vw;
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
@@ -79,7 +79,7 @@ body {
         font-size: 6vw;
         color: #fff;
         font-weight: bold;
-        top: 100vw;
+        top: 86vw;
         left: 15vw;
     }
     #main-page {
