@@ -301,5 +301,7 @@ body {
         display: none;
         color:#000 !important;
         background: white;
+        position: absolute;
+        top: 1vw !important;
     }
 }
