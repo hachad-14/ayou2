@@ -14,7 +14,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/26/2021");
+        var inputDate = new Date("06/27/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Mon coeur, sache que\nje suis prêt à tout faire\npour te rendre heureuse.\nTu peux compter sur moi.";
             document.getElementById("r").innerHTML = "Reviens après minuit.";
@@ -46,11 +46,12 @@ $(document).ready(function() {
             document.getElementById("main-page").style.visibility = "visible";
             document.getElementById("third-page").style.visibility = "hidden";
             document.getElementById("tp-arrow").style.visibility = "hidden";
-            document.getElementById("b1").style.visibility = "hidden";
-            document.getElementById("b2").style.visibility = "hidden";
-            document.getElementById("b3").style.visibility = "hidden";
-            document.getElementById("b4").style.visibility = "hidden";
+            $('#third-page').hide();
+            $('#pre').hide();
+            $('#pre1').hide();
+            
         });
+        $('#third-page').show();
         document.getElementById("main-page").style.visibility = "hidden";
         document.getElementById("third-page").style.visibility = "visible";
         document.getElementById("tp-arrow").style.visibility = "visible";
@@ -63,7 +64,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/26/2021");
+        var inputDate = new Date("06/27/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>10/10"
             document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
@@ -76,7 +77,7 @@ $(document).ready(function() {
     
             $("#b1").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("tp-arrow").style.visibility = "hidden";
+                document.getElementById("tp-arrow").style.visibility = "visible";
             });
             $("#b2").click(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
@@ -91,6 +92,31 @@ $(document).ready(function() {
                 document.getElementById("redscreen").style.visibility = "visible";
                 document.getElementById("tp-arrow").style.visibility = "hidden";
             });
+
+            if($('#pre').is(':visible')){
+                setTimeout( function(){ 
+                    document.getElementById("pre").style.visibility = "visible";
+                    document.getElementById("pre").style.opacity = "0";
+                    document.getElementById("pre").style.top = "-20";
+                    document.getElementById("pre").style.left = "-1";
+                    console.log("1");
+
+                }, 0500 );
+                setTimeout( function(){ 
+                    document.getElementById("pre").style.visibility = "visible";
+                    document.getElementById("pre").style.opacity = "1";
+                    document.getElementById("pre").style.top = "5";
+                    document.getElementById("pre").style.left = "-1";
+                    console.log("1");
+                }, 1000 );
+                setTimeout( function(){ 
+                    document.getElementById("pre").style.visibility = "visible";
+                    document.getElementById("pre").style.opacity = "0";
+                    document.getElementById("pre").style.top = "5";
+                    document.getElementById("pre").style.left = "100";
+                    console.log("1");
+                }, 5000 );
+            }
             
             if($('#redscreen').is(':visible')){
                 setTimeout( function(){ 
