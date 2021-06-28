@@ -20,24 +20,40 @@ $(document).ready(function() {
             document.getElementById("r").innerHTML = "Reviens après minuit.";
         }
 
-        var inputDate1 = new Date("06/23/2021");
+        var inputDate1 = new Date("06/30/2021");
         if(inputDate1.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Sache que j’adore te voir heureuse\net ma plus belle récompense est\nton sourire.";
+            document.getElementById("r").innerHTML = "Wallah c'est vrai.";
         }
 
-        var inputDate2 = new Date("06/24/2021");
+        var inputDate2 = new Date("06/01/2021");
         if(inputDate2.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            console.log("auj");
+            document.getElementById("txt").innerHTML = "Les mots ne peuvent pas vraiment\nexprimer à quel point je te trouve belle,\nattirante, intelligente et drôle.\nTu es parfaitement parfaite.";
+            document.getElementById("r").innerHTML = "C'est donc ça l'amour.";
         }
 
-        var inputDate3 = new Date("06/25/2021");
+        var inputDate3 = new Date("07/02/2021");
         if(inputDate3.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            console.log("auj");
+            document.getElementById("txt").innerHTML = "Merci de m’aimer tel que je suis.\nJe te promets que je vais faire tout mon\npossible pour faire de toi la femme\nla plus heureuse au monde.";
+            document.getElementById("r").innerHTML = "Tkt mon coeur.";
         }
 
-        var inputDate4 = new Date("06/26/2021");
+        var inputDate4 = new Date("07/03/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            console.log("auj");
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2708";
+            document.getElementById("r").innerHTML = "Jss jte copie mais trkl.";
+        }
+        
+        var inputDate4 = new Date("07/04/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Je ne suis vraiment pas un artiste professionnel\n mais je peux sans problème nous imaginer\n ensemble pour le reste de notre vie.";
+            document.getElementById("r").innerHTML = "Jss jte copie mais trkl.";
+        }
+
+        var inputDate4 = new Date("07/05/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
         }
     });
 
@@ -170,4 +186,18 @@ $(document).ready(function() {
             console.log("pre");
         }
     });
+    $("#thirdbody").click(function() {
+        document.getElementById("main-page").style.visibility = "hidden";
+        document.getElementById("fourth-page").style.visibility = "visible";
+        document.getElementById("fp-arrow").style.visibility = "visible";
+
+        $("#fp-arrow").click(function() {
+            document.getElementById("main-page").style.visibility = "visible";
+            document.getElementById("fourth-page").style.visibility = "hidden";
+            document.getElementById("fp-arrow").style.visibility = "hidden";
+        });
+        document.getElementById("f-title").innerHTML = "Pour nos 1 mois.";
+        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est notre premier mois. Oui, on sort ensemble depuis un mois. Un mois merveilleux. Est ce qu'on dirait que ça fait 4 ans ? oui oui oui. Un mois avec toi, ça m'a rendu si heureux,n'imagine même pas à quel point j'aimerais qu'il en soit de même pour toi. En un mois tu m'as calmer,tu m'as aimé, tu m'as tout donné, et j'en suis énormément reconaissant. Merci pour ton Amour, pour ta Sincérité, ta Patience, ta Gentillesse, bref merci pour Toi. Je nous souhaite un couple heureux, simple, et fidéle. Je ne te lacherais jamais quoi qu'il arrive, c'est une prommesse.Joyeux 1 mois mon amour.<br>La lune est belle.";
+    });
+  
 });
