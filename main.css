@@ -188,7 +188,7 @@ body {
         font-size: 5vw;
         opacity: 0;
         top: 0vw;
-        left: 0vw;
+        left: -3vw;
         visibility: hidden;
         transition: 1s ease;
     }

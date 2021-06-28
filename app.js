@@ -91,22 +91,19 @@ $(document).ready(function() {
             document.getElementById("b3").innerHTML = "Mohamed Kamal";
             document.getElementById("b4").innerHTML = "Mohamed Kamal Issam";
     
-            //$("#b1").click(function() {
-            //    document.getElementById("redscreen").style.visibility = "visible";
-            //    document.getElementById("tp-arrow").style.visibility = "visible";
-            //});
-            //$("#b2").click(function() {
-            //    document.getElementById("redscreen").style.visibility = "visible";
-            //    document.getElementById("tp-arrow").style.visibility = "hidden";
-            //});
+            $("#b1").click(function() {
+                alert("Faut, c qui qui vas attendre 24h ?");
+            });
+            $("#b2").click(function() {
+                alert("Faut, c qui qui vas attendre 24h ?");
+            });
             //vrai------------------------------------
             $("#b3").click(function() {
                alert("HHHHH jcroyais t'allais pas l'avoir juste, j'ai toujour pas fais lautre partie du quizz.")
             });
-            //$("#b4").click(function() {
-            //    document.getElementById("redscreen").style.visibility = "visible";
-            //    document.getElementById("tp-arrow").style.visibility = "hidden";
-            //});
+            $("#b4").click(function() {
+                alert("Faut, c qui qui vas attendre 24h ?");
+            });
 
             if($('#pre').is(':visible')){
                 setTimeout( function(){ 
