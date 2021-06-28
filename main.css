@@ -184,24 +184,23 @@ body {
         font-family: 'Montserrat';
         color: #fff;
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 5vw;
         opacity: 0;
-        top: 0vw;
-        left: 0vw;
+        top: 10vw;
+        left: 13vw;
         visibility: hidden;
         transition: 1s ease;
     }
     #pre1 {
         position: absolute;
-        padding: 10vw 15vw;
         text-align: center;
         font-family: 'Montserrat';
         color: #fff;
         font-weight: bold;
         font-size: 6vw;
         opacity: 0;
-        top: 13vw;
-        left: -2vw;
+        top: 20vw;
+        left: 15vw;
         transition: 2s ease;
     }
     .tp-body {
