@@ -4,7 +4,9 @@ $(document).ready(function() {
     if (!readCookie('hide')) {
         console.log("cookies présents");
       $('#third-page').show();
-    }
+    } else {
+        $('#splashscreen').hide();
+      }
   
     // Add the event that closes the popup and sets the cookie that tells us to
     // not show it again until one day has passed.
