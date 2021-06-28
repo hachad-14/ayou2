@@ -4,16 +4,16 @@ $(document).ready(function() {
     if (!readCookie('hide')) {
         console.log("cookies enregistrés");
       //$('#third-page').show();
-      $('#txt').show();
+      $('#third-page').show();
     } else {
-        $('#txt').hide();
+        $('#third-page').hide();
       }
   
     // Add the event that closes the popup and sets the cookie that tells us to
     // not show it again until one day has passed.
     $('#close').click(function() {
       //$('#third-page').hide();
-      $('#txt').hide();
+      $('#third-page').hide();
       console.log("cookies présents");
       createCookie('hide', true, 1)
       return false;
