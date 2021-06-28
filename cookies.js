@@ -2,13 +2,15 @@ $(document).ready(function() {
 
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-      $('#popupDiv').show();
+        console.log("cookies présents");
+      $('#third-page').show();
     }
   
     // Add the event that closes the popup and sets the cookie that tells us to
     // not show it again until one day has passed.
     $('#close').click(function() {
-      $('#popupDiv').hide();
+      $('#third-page').hide();
+      console.log("cookies enregistrés");
       createCookie('hide', true, 1)
       return false;
     });
