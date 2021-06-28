@@ -7,6 +7,7 @@ $(document).ready(function() {
       $('#txt').show();
     } else {
         $('#txt').hide();
+        console.log("test");
       }
   
     // Add the event that closes the popup and sets the cookie that tells us to
