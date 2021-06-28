@@ -105,14 +105,14 @@ body {
     }
     #datetime{
         font-family: 'Poppins';
-        color: #000;
+        color: #2d97ab;
         position: absolute;
         top: 25vw;
         left: 32vw;
         font-size: 6vw;
         font-weight: bold;
     }
-    .body {
+    .sp-body {
         position: absolute;
         background-color: #3b4a61;
         padding: 50vw 43.5vw;
@@ -155,15 +155,26 @@ body {
     /*-----------------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------------*/
+    #wm {
+        position: absolute;
+        font-family: 'Montserrat';
+        color: #2d97ab;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        top: 40vw;
+        left: 12vw;
+        transition: 1s ease;
+    }
     #nbd {
         position: absolute;
         font-family: 'Montserrat';
-        color: #fff;
+        color: #2d97ab;
         text-align: center;
         font-size: 5vw;
         font-weight: bold;
         top: 19vw;
-        left: 17vw;
+        left: 16vw;
         opacity: 0;
         transition: 1s ease;
     }
@@ -177,7 +188,7 @@ body {
         font-size: 5vw;
         opacity: 0;
         top: 0vw;
-        left: 1vw;
+        left: 0vw;
         visibility: hidden;
         transition: 1s ease;
     }
@@ -194,9 +205,9 @@ body {
         left: -2vw;
         transition: 2s ease;
     }
-    .body {
+    .tp-body {
         position: absolute;
-        background-color: #8D8D8D;
+        background-color: #3b4a61;
         padding: 50vw 43.5vw;
         top: 44vw;
         left: 6.5vw;

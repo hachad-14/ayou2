@@ -6,8 +6,11 @@ $(document).ready(function() {
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
       $('#quizz-page').show();
+      $('#wm').hide();
     } else {
         $('#quizz-page').hide();
+        $('#wm').show();
+        document.getElementById("wm").innerHTML = "Les 24h ne sont toujours pas passés";
         console.log("cookies présents");
     }
 

@@ -85,8 +85,7 @@ $(document).ready(function() {
             //});
             //vrai------------------------------------
             $("#b3").click(function() {
-                document.getElementById("greenscreen").style.visibility = "visible";
-                document.getElementById("tp-arrow").style.visibility = "hidden";
+               alert("HHHHH jcroyais t'allais pas l'avoir juste, j'ai toujour pas fais lautre partie du quizz.")
             });
             //$("#b4").click(function() {
             //    document.getElementById("redscreen").style.visibility = "visible";
