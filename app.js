@@ -79,19 +79,19 @@ $(document).ready(function() {
             //    document.getElementById("redscreen").style.visibility = "visible";
             //    document.getElementById("tp-arrow").style.visibility = "visible";
             //});
-            $("#b2").click(function() {
-                document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("tp-arrow").style.visibility = "hidden";
-            });
+            //$("#b2").click(function() {
+            //    document.getElementById("redscreen").style.visibility = "visible";
+            //    document.getElementById("tp-arrow").style.visibility = "hidden";
+            //});
             //vrai------------------------------------
             $("#b3").click(function() {
                 document.getElementById("greenscreen").style.visibility = "visible";
                 document.getElementById("tp-arrow").style.visibility = "hidden";
             });
-            $("#b4").click(function() {
-                document.getElementById("redscreen").style.visibility = "visible";
-                document.getElementById("tp-arrow").style.visibility = "hidden";
-            });
+            //$("#b4").click(function() {
+            //    document.getElementById("redscreen").style.visibility = "visible";
+            //    document.getElementById("tp-arrow").style.visibility = "hidden";
+            //});
 
             if($('#pre').is(':visible')){
                 setTimeout( function(){ 

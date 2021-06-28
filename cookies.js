@@ -1,22 +1,24 @@
 $(document).ready(function() {
-
+    //0d1e39
+    //3b4a61
+    //2d97ab
+    
     // If the 'hide cookie is not set we show the message
     if (!readCookie('hide')) {
-      $('#quizz').show();
+      $('#quizz-page').show();
     } else {
-        $('#quizz').hide();
+        $('#quizz-page').hide();
         console.log("cookies présents");
-      }
-  
-    // Add the event that closes the popup and sets the cookie that tells us to
-    // not show it again until one day has passed.
-    $('#b1').click(function() {
-      $('#quizz').hide();
-      console.log("cookies enregistrés");
-      createCookie('hide', true, 1)
-      return false;
-    });
-  
+    }
+
+    $('#b1, #b2, #b4').on('click', page_deleting);
+
+    function page_deleting() {
+        $('#quizz-page').hide();
+        console.log("cookies enregistrés");
+        createCookie('hide', true, 1)
+        return false;
+    }
   });
   
   // ---
