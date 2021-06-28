@@ -5,7 +5,7 @@ $(document).ready(function() {
         console.log("cookies présents");
       $('#third-page').show();
     } else {
-        $('#splashscreen').hide();
+        $('#third-page').hide();
       }
   
     // Add the event that closes the popup and sets the cookie that tells us to
