@@ -195,14 +195,12 @@ $(document).ready(function() {
             document.getElementById("main-page").style.visibility = "visible";
             document.getElementById("fourth-page").style.visibility = "hidden";
             document.getElementById("fp-arrow").style.visibility = "hidden";
+            document.body.style.position = "fixed"; 
         });
         document.getElementById("f-title").innerHTML = "Pour nos 1 mois.";
         document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est notre premier mois. Oui, on sort ensemble depuis un mois. Un mois merveilleux. Est ce qu'on dirait que ça fait 4 ans ? oui oui oui. Un mois avec toi, ça m'a rendu si heureux,n'imagine même pas à quel point j'aimerais qu'il en soit de même pour toi. En un mois tu m'as calmer,tu m'as aimé, tu m'as tout donné, et j'en suis énormément reconaissant. Merci pour ton Amour, pour ta Sincérité, ta Patience, ta Gentillesse, bref merci pour Toi. Je nous souhaite un couple heureux, simple, et fidéle. Je ne te lacherais jamais quoi qu'il arrive, c'est une prommesse.Joyeux 1 mois mon amour.<br>La lune est belle.";
         
-        function myFunction() {
-            var x = document.getElementsByTagName("BODY")[0];
-            x.style.position = "absolute";
-          }
+        document.body.style.position = "absolute"; 
     });
   
 });
