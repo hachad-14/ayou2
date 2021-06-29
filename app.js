@@ -16,9 +16,8 @@ $(document).ready(function() {
 
         var inputDate = new Date("06/29/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Mon coeur, sache que\nje suis prêt à tout faire\npour te rendre heureuse.\nTu peux compter sur moi.";
-            document.getElementById("r").innerHTML = "Reviens après minuit.";
-            console.log("test")
+            document.getElementById("txt").innerHTML = "Sache que j’adore te voir heureuse\net ma plus belle récompense est\nton sourire.";
+            document.getElementById("r").innerHTML = "Wallah c'est vrai.";
         }
 
         var inputDate1 = new Date("06/30/2021");
@@ -81,7 +80,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/29/2021");
+        var inputDate = new Date("06/30/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>10/10"
             document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
@@ -93,17 +92,17 @@ $(document).ready(function() {
             document.getElementById("b4").innerHTML = "Mohamed Kamal Issam";
     
             $("#b1").click(function() {
-                alert("Faut, c qui qui vas attendre 24h ?");
+                alert("FAUX, c qui qui vas attendre 24h ?");
             });
             $("#b2").click(function() {
-                alert("Faut, c qui qui vas attendre 24h ?");
+                alert("FAUX, c qui qui vas attendre 24h ?");
             });
             //vrai------------------------------------
             $("#b3").click(function() {
                alert("HHHHH jcroyais t'allais pas l'avoir juste, j'ai toujour pas fais lautre partie du quizz.")
             });
             $("#b4").click(function() {
-                alert("Faut, c qui qui vas attendre 24h ?");
+                alert("FAUX, c qui qui vas attendre 24h ?");
             });
 
             if($('#pre').is(':visible')){
