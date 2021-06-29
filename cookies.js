@@ -9,7 +9,7 @@ $(document).ready(function() {
       $('#wm').hide();
     } else {
         $('#quizz-page').show();
-        $('#wm').show();
+        //$('#wm').show();
         document.getElementById("wm").innerHTML = "Les 24h ne sont toujours pas passés";
         console.log("cookies présents");
     }

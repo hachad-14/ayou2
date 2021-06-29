@@ -80,7 +80,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/30/2021");
+        var inputDate = new Date("06/29/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>10/10"
             document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
