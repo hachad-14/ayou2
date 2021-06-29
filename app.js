@@ -82,8 +82,8 @@ $(document).ready(function() {
 
         var inputDate = new Date("06/29/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>10/10"
-            document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
+            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
+            document.getElementById("pre").innerHTML = "T'as perdu une fois.<br>je suis très deçu<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
             document.getElementById("fq").innerHTML = "Comment s'appelle mon<br>frére ?";
             document.getElementById("b1").innerHTML = "Kamal";
