@@ -80,7 +80,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/29/2021");
+        var inputDate = new Date("06/30/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
             document.getElementById("pre").innerHTML = "T'as perdu une fois.<br>je suis très deçu.<br>";
