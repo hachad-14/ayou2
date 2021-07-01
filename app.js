@@ -26,7 +26,7 @@ $(document).ready(function() {
             document.getElementById("r").innerHTML = "Wallah c'est vrai.";
         }
 
-        var inputDate2 = new Date("06/01/2021");
+        var inputDate2 = new Date("07/01/2021");
         if(inputDate2.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Les mots ne peuvent pas vraiment\nexprimer à quel point je te trouve belle,\nattirante, intelligente et drôle.\nTu es parfaitement parfaite.";
             document.getElementById("r").innerHTML = "C'est donc ça l'amour.";
