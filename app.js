@@ -55,6 +55,61 @@ $(document).ready(function() {
             document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
             document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
         }
+        var inputDate4 = new Date("07/07/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "J’ai trouvé en toi tout ce qui me manquait.<br>J’ai de la chance d’être avec toi.";
+            document.getElementById("r").innerHTML = "Je t'en remercie.";
+        }
+        var inputDate4 = new Date("07/08/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Être avec toi pour moi est le synonyme de bonheur,<br>je te veux avec moi pour toujours.";
+            document.getElementById("r").innerHTML = "Ettt oue.";
+        }
+        var inputDate4 = new Date("07/09/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/10/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/11/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/12/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/13/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/14/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/15/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/16/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
+        var inputDate4 = new Date("07/17/2021");
+        if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+        }
     });
 
     $("#secondbody").click(function() {
