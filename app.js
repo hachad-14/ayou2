@@ -67,33 +67,33 @@ $(document).ready(function() {
         }
         var inputDate4 = new Date("07/09/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
-            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+            document.getElementById("txt").innerHTML = "J’ai mis du temps à trouver la perfection et je ne suis pas prêt à te laisser partir. Fais-toi à l’idée que tu es coincée avec moi pour le reste de tes jours.";
+            document.getElementById("r").innerHTML = "C'étais très dure mais cv.";
         }
         var inputDate4 = new Date("07/10/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
-            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+            document.getElementById("txt").innerHTML = " Je t’aimerai toujours pour ce que tu es. Ce qui est à l’intérieur est bien plus important. Le fait que tu sois magnifique n’est qu’un bonus !";
+            document.getElementById("r").innerHTML = "Jte jure c'est vrai.";
         }
         var inputDate4 = new Date("07/11/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
+            document.getElementById("txt").innerHTML = "Code pour le gage de ton choix.<br>Code: 0505";
             document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
         }
         var inputDate4 = new Date("07/12/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
-            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+            document.getElementById("txt").innerHTML = "Mon coeur chante et danse quand je pense à toi.";
+            document.getElementById("r").innerHTML = "Petit romantique que je suis.";
         }
         var inputDate4 = new Date("07/13/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
-            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+            document.getElementById("txt").innerHTML = "Explorer les étoiles, parcourir le monde, survoler le ciel, s’endormir au paradis… Tout cela fait rêver. Mais toi, toi tu dépasses le rêve.";
+            document.getElementById("r").innerHTML = "C'est pas Google tkt.";
         }
         var inputDate4 = new Date("07/14/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
-            document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
+            document.getElementById("txt").innerHTML = "Je choisirais toujours de passer un bref instant avec toi sur cette terre plutôt qu’une éternité au paradis.";
+            document.getElementById("r").innerHTML = "Oui je mens, et ?";
         }
         var inputDate4 = new Date("07/15/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
