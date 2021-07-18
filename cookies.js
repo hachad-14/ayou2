@@ -88,30 +88,35 @@ $(document).ready(function() {
     document.getElementById("b3").innerHTML = "Aventure";
     document.getElementById("b4").innerHTML = "Horreur";
     console.log("cookies de first_q présents");
+    $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
       document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
       document.getElementById("b1").innerHTML = "La casa de papel";
       document.getElementById("b2").innerHTML = "Sherlock";
       document.getElementById("b3").innerHTML = "Narcos";
       document.getElementById("b4").innerHTML = "Game of thrones";
+      $('#b1, #b2, #b4').on('click', faux_alerte);
       $("#b3").click(function() {
         document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
         document.getElementById("b1").innerHTML = "Jalousie";
         document.getElementById("b2").innerHTML = "Colérique";
         document.getElementById("b3").innerHTML = "Insolent";
         document.getElementById("b4").innerHTML = "Arrogant";
+        $('#b3, #b2, #b4').on('click', faux_alerte);
         $("#b1").click(function() {
           document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
           document.getElementById("b1").innerHTML = "Avoir la santé";
           document.getElementById("b2").innerHTML = "Etre riche";
           document.getElementById("b3").innerHTML = "Etre populaire";
           document.getElementById("b4").innerHTML = "Etre heureux";
+          $('#b1, #b2, #b3').on('click', faux_alerte);
           $("#b4").click(function() {
             document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
             document.getElementById("b1").innerHTML = "Astronaute";
             document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
             document.getElementById("b3").innerHTML = "Médecin";
             document.getElementById("b4").innerHTML = "Policier";
+            $('#b1, #b3, #b4').on('click', faux_alerte);
             $("#b2").click(function() {
               createCookie('q6', true, 1);
               eraseCookie();
@@ -150,24 +155,28 @@ $(document).ready(function() {
     document.getElementById("b3").innerHTML = "Narcos";
     document.getElementById("b4").innerHTML = "Game of thrones";
     console.log("cookies de second_q présents");
+    $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
       document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
       document.getElementById("b1").innerHTML = "Jalousie";
       document.getElementById("b2").innerHTML = "Colérique";
       document.getElementById("b3").innerHTML = "Insolent";
       document.getElementById("b4").innerHTML = "Arrogant";
+      $('#b3, #b2, #b4').on('click', faux_alerte);
       $("#b1").click(function() {
         document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
         document.getElementById("b1").innerHTML = "Avoir la santé";
         document.getElementById("b2").innerHTML = "Etre riche";
         document.getElementById("b3").innerHTML = "Etre populaire";
         document.getElementById("b4").innerHTML = "Etre heureux";
+        $('#b1, #b2, #b3').on('click', faux_alerte);
         $("#b4").click(function() {
           document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
           document.getElementById("b1").innerHTML = "Astronaute";
           document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
           document.getElementById("b3").innerHTML = "Médecin";
           document.getElementById("b4").innerHTML = "Policier";
+          $('#b1, #b3, #b4').on('click', faux_alerte);
           $("#b2").click(function() {
             createCookie('q6', true, 1);
             eraseCookie();
@@ -205,18 +214,21 @@ $(document).ready(function() {
     document.getElementById("b3").innerHTML = "Insolent";
     document.getElementById("b4").innerHTML = "Arrogant";
     console.log("cookies de third_q présents");
+    $('#b3, #b2, #b4').on('click', faux_alerte);
     $("#b1").click(function() {
       document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
       document.getElementById("b1").innerHTML = "Avoir la santé";
       document.getElementById("b2").innerHTML = "Etre riche";
       document.getElementById("b3").innerHTML = "Etre populaire";
       document.getElementById("b4").innerHTML = "Etre heureux";
+      $('#b1, #b2, #b3').on('click', faux_alerte);
       $("#b4").click(function() {
         document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
         document.getElementById("b1").innerHTML = "Astronaute";
         document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
         document.getElementById("b3").innerHTML = "Médecin";
         document.getElementById("b4").innerHTML = "Policier";
+        $('#b1, #b3, #b4').on('click', faux_alerte);
         $("#b2").click(function() {
           createCookie('q6', true, 1);
           eraseCookie();
@@ -247,12 +259,14 @@ $(document).ready(function() {
     document.getElementById("b3").innerHTML = "Etre populaire";
     document.getElementById("b4").innerHTML = "Etre heureux";
     console.log("cookies de forth_q présents");
+    $('#b1, #b3, #b2').on('click', faux_alerte);
     $("#b4").click(function() {
       document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
         document.getElementById("b1").innerHTML = "Astronaute";
         document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
         document.getElementById("b3").innerHTML = "Médecin";
         document.getElementById("b4").innerHTML = "Policier";
+        $('#b1, #b3, #b4').on('click', faux_alerte);
         $("#b2").click(function() {
           createCookie('q6', true, 1);
           eraseCookie();
@@ -276,6 +290,7 @@ $(document).ready(function() {
     document.getElementById("b3").innerHTML = "Médecin";
     document.getElementById("b4").innerHTML = "Policier";
     console.log("cookies de fifth_q présents");
+    $('#b2, #b3, #b4').on('click', faux_alerte);
     $("#b1").click(function() {
       alert("Code à envoyer: 1980")
       createCookie('q6', true, 1);
@@ -285,4 +300,7 @@ $(document).ready(function() {
         createCookie(name,"",-1);
       }
     });
+  }
+  function faux_alerte() {
+    alert("Faux, c qui vas attendre 24h HHHHHHHHHHHH")
   }

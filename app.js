@@ -85,27 +85,27 @@ $(document).ready(function() {
             document.getElementById("txt").innerHTML = "Mon coeur chante et danse quand je pense à toi.";
             document.getElementById("r").innerHTML = "Petit romantique que je suis.";
         }
-        var inputDate4 = new Date("07/13/2021");
+        var inputDate4 = new Date("07/19/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Explorer les étoiles, parcourir le monde, survoler le ciel, s’endormir au paradis… Tout cela fait rêver. Mais toi, toi tu dépasses le rêve.";
             document.getElementById("r").innerHTML = "C'est pas Google tkt.";
         }
-        var inputDate4 = new Date("07/14/2021");
+        var inputDate4 = new Date("07/20/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Je choisirais toujours de passer un bref instant avec toi sur cette terre plutôt qu’une éternité au paradis.";
             document.getElementById("r").innerHTML = "Oui je mens, et ?";
         }
-        var inputDate4 = new Date("07/15/2021");
+        var inputDate4 = new Date("07/21/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
             document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
         }
-        var inputDate4 = new Date("07/16/2021");
+        var inputDate4 = new Date("07/22/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
             document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
         }
-        var inputDate4 = new Date("07/17/2021");
+        var inputDate4 = new Date("07/23/2021");
         if(inputDate4.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("txt").innerHTML = "Code pour recevoir le nude de ton choix.<br>Code: 2888";
             document.getElementById("r").innerHTML = "HHHHH pas trop dure stp.";
@@ -141,19 +141,22 @@ $(document).ready(function() {
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
     
-            $("#b1").click(function() {
-                alert("FAUX, c qui qui vas attendre 24h ?");
-            });
-            $("#b2").click(function() {
-                alert("FAUX, c qui qui vas attendre 24h ?");
-            });
+            //$("#b1").click(function() {
+            //    alert("FAUXg, c qui qui vas attendre 24h ?");
+            //    $('#wm').show();
+            //});
+            //$("#b2").click(function() {
+            //    alert("FAUX, c qui qui vas attendre 24h ?");
+            //    $('#wm').show();
+            //});
             //vrai------------------------------------
             $("#b3").click(function() {
                 createCookie('q2', true, 1);
             });
-            $("#b4").click(function() {
-                alert("FAUX, c qui qui vas attendre 24h ?");
-            });
+            //$("#b4").click(function() {
+            //    alert("FAUX, c qui qui vas attendre 24h ?");
+            //    $('#wm').show();
+            //});
 
             if($('#pre').is(':visible')){
                 setTimeout( function(){ 
@@ -245,7 +248,7 @@ $(document).ready(function() {
             document.body.style.position = "fixed"; 
         });
         document.getElementById("f-title").innerHTML = "Pour nos 1 mois.";
-        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est notre premier mois. Oui, on sort ensemble depuis un mois. Un mois merveilleux. Est ce qu'on dirait que ça fait 4 ans ? oui oui oui. Un mois avec toi, ça m'a rendu si heureux,n'imagine même pas à quel point j'aimerais qu'il en soit de même pour toi. En un mois tu m'as calmer,tu m'as aimé, tu m'as tout donné, et j'en suis énormément reconaissant. Merci pour ton Amour, pour ta Sincérité, ta Patience, ta Gentillesse, bref merci pour Toi. Je nous souhaite un couple heureux, simple, et fidéle. Je ne te lacherais jamais quoi qu'il arrive, c'est une prommesse.Joyeux 1 mois mon amour.<br>La lune est belle.";
+        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est nos deux mois. Oui, moi aussi je n'arrive pas à y croire. Deux putain de gros mois en te supportant, écoute je profite de l'occasion pour te dire que... je casse. Non plus sérieusement mon coeur, ces deux mois ça a été les deux mois les plus beaux de ma vie en étant en couple, je le redis; je sais pas ce que jai fais pour te mériter, t'es tellement bénéfique pour moi, tu m'apportes la joix, le bonheur, et tout ce qu'il y'a de plud bon sur cette terre et j'éspère ètre aussi bénèfique pour toi, et aussi je continuerais à m'améliorer. Bref à nos deux mois, à nous.<br>La lune est putainement belle.";
         
         document.body.style.position = "absolute"; 
     });
