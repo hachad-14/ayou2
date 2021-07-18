@@ -75,6 +75,11 @@ $(document).ready(function() {
   } else {
     forth_q();
   }
+  if (!readCookie('q6')) {
+    console.log("");
+  } else {
+    fifth_q();
+  }
 
   function first_q() {
     document.getElementById("fq").innerHTML = "Quel est mon type de<br>film préféré ?";
@@ -84,7 +89,58 @@ $(document).ready(function() {
     document.getElementById("b4").innerHTML = "Horreur";
     console.log("cookies de first_q présents");
     $("#b3").click(function() {
-      location.reload(); 
+      document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
+      document.getElementById("b1").innerHTML = "La casa de papel";
+      document.getElementById("b2").innerHTML = "Sherlock";
+      document.getElementById("b3").innerHTML = "Narcos";
+      document.getElementById("b4").innerHTML = "Game of thrones";
+      $("#b3").click(function() {
+        document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
+        document.getElementById("b1").innerHTML = "Jalousie";
+        document.getElementById("b2").innerHTML = "Colérique";
+        document.getElementById("b3").innerHTML = "Insolent";
+        document.getElementById("b4").innerHTML = "Arrogant";
+        $("#b1").click(function() {
+          document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
+          document.getElementById("b1").innerHTML = "Avoir la santé";
+          document.getElementById("b2").innerHTML = "Etre riche";
+          document.getElementById("b3").innerHTML = "Etre populaire";
+          document.getElementById("b4").innerHTML = "Etre heureux";
+          $("#b4").click(function() {
+            document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+            document.getElementById("b1").innerHTML = "Astronaute";
+            document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
+            document.getElementById("b3").innerHTML = "Médecin";
+            document.getElementById("b4").innerHTML = "Policier";
+            $("#b2").click(function() {
+              createCookie('q6', true, 1);
+              eraseCookie();
+              function eraseCookie(name) {
+                console.log("cookies suprrimés");
+                createCookie(name,"",-1);
+              }
+            });
+            createCookie('q5', true, 1);
+            eraseCookie();
+            function eraseCookie(name) {
+              console.log("cookies suprrimés");
+              createCookie(name,"",-1);
+            }
+          });
+          createCookie('q4', true, 1);
+          eraseCookie();
+          function eraseCookie(name) {
+            console.log("cookies suprrimés");
+            createCookie(name,"",-1);
+          }
+        });
+        createCookie('q3', true, 1);
+        eraseCookie();
+        function eraseCookie(name) {
+          console.log("cookies suprrimés");
+          createCookie(name,"",-1);
+        }
+      });
     });
   }
   function second_q() {
@@ -95,7 +151,45 @@ $(document).ready(function() {
     document.getElementById("b4").innerHTML = "Game of thrones";
     console.log("cookies de second_q présents");
     $("#b3").click(function() {
-      location.reload(); 
+      document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
+      document.getElementById("b1").innerHTML = "Jalousie";
+      document.getElementById("b2").innerHTML = "Colérique";
+      document.getElementById("b3").innerHTML = "Insolent";
+      document.getElementById("b4").innerHTML = "Arrogant";
+      $("#b1").click(function() {
+        document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
+        document.getElementById("b1").innerHTML = "Avoir la santé";
+        document.getElementById("b2").innerHTML = "Etre riche";
+        document.getElementById("b3").innerHTML = "Etre populaire";
+        document.getElementById("b4").innerHTML = "Etre heureux";
+        $("#b4").click(function() {
+          document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+          document.getElementById("b1").innerHTML = "Astronaute";
+          document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
+          document.getElementById("b3").innerHTML = "Médecin";
+          document.getElementById("b4").innerHTML = "Policier";
+          $("#b2").click(function() {
+            createCookie('q6', true, 1);
+            eraseCookie();
+            function eraseCookie(name) {
+              console.log("cookies suprrimés");
+              createCookie(name,"",-1);
+            }
+          });
+          createCookie('q5', true, 1);
+          eraseCookie();
+          function eraseCookie(name) {
+            console.log("cookies suprrimés");
+            createCookie(name,"",-1);
+          }
+        });
+        createCookie('q4', true, 1);
+        eraseCookie();
+        function eraseCookie(name) {
+          console.log("cookies suprrimés");
+          createCookie(name,"",-1);
+        }
+      });
       createCookie('q3', true, 1);
       eraseCookie();
       function eraseCookie(name) {
@@ -112,7 +206,32 @@ $(document).ready(function() {
     document.getElementById("b4").innerHTML = "Arrogant";
     console.log("cookies de third_q présents");
     $("#b1").click(function() {
-      location.reload(); 
+      document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
+      document.getElementById("b1").innerHTML = "Avoir la santé";
+      document.getElementById("b2").innerHTML = "Etre riche";
+      document.getElementById("b3").innerHTML = "Etre populaire";
+      document.getElementById("b4").innerHTML = "Etre heureux";
+      $("#b4").click(function() {
+        document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+        document.getElementById("b1").innerHTML = "Astronaute";
+        document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
+        document.getElementById("b3").innerHTML = "Médecin";
+        document.getElementById("b4").innerHTML = "Policier";
+        $("#b2").click(function() {
+          createCookie('q6', true, 1);
+          eraseCookie();
+          function eraseCookie(name) {
+            console.log("cookies suprrimés");
+            createCookie(name,"",-1);
+          }
+        });
+        createCookie('q5', true, 1);
+        eraseCookie();
+        function eraseCookie(name) {
+          console.log("cookies suprrimés");
+          createCookie(name,"",-1);
+        }
+      });
       createCookie('q4', true, 1);
       eraseCookie();
       function eraseCookie(name) {
@@ -122,14 +241,26 @@ $(document).ready(function() {
     });
   }
   function forth_q() {
-    document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
-    document.getElementById("b1").innerHTML = "La casa de papel";
-    document.getElementById("b2").innerHTML = "Sherlock";
-    document.getElementById("b3").innerHTML = "Narcos";
-    document.getElementById("b4").innerHTML = "Game of thrones";
+    document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
+    document.getElementById("b1").innerHTML = "Avoir la santé";
+    document.getElementById("b2").innerHTML = "Etre riche";
+    document.getElementById("b3").innerHTML = "Etre populaire";
+    document.getElementById("b4").innerHTML = "Etre heureux";
     console.log("cookies de forth_q présents");
-    $("#b3").click(function() {
-      location.reload(); 
+    $("#b4").click(function() {
+      document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+        document.getElementById("b1").innerHTML = "Astronaute";
+        document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
+        document.getElementById("b3").innerHTML = "Médecin";
+        document.getElementById("b4").innerHTML = "Policier";
+        $("#b2").click(function() {
+          createCookie('q6', true, 1);
+          eraseCookie();
+          function eraseCookie(name) {
+            console.log("cookies suprrimés");
+            createCookie(name,"",-1);
+          }
+        });
       createCookie('q5', true, 1);
       eraseCookie();
       function eraseCookie(name) {
@@ -139,10 +270,19 @@ $(document).ready(function() {
     });
   }
   function fifth_q() {
-    document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
-    document.getElementById("b1").innerHTML = "La casa de papel";
-    document.getElementById("b2").innerHTML = "Sherlock";
-    document.getElementById("b3").innerHTML = "Narcos";
-    document.getElementById("b4").innerHTML = "Game of thrones";
+    document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+    document.getElementById("b1").innerHTML = "Ingenieur à la Nasa";
+    document.getElementById("b2").innerHTML = "Astronaute";
+    document.getElementById("b3").innerHTML = "Médecin";
+    document.getElementById("b4").innerHTML = "Policier";
     console.log("cookies de fifth_q présents");
+    $("#b1").click(function() {
+      alert("Code à envoyer: 1980")
+      createCookie('q6', true, 1);
+      eraseCookie();
+      function eraseCookie(name) {
+        console.log("cookies suprrimés");
+        createCookie(name,"",-1);
+      }
+    });
   }
