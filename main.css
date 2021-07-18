@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 575px) {
     body {
-        background-color: #101820ff;
+        background-color: #0d1f23;
         height: 15vw;
         position: fixed;
         /*overflow: hidden;*/
@@ -23,14 +23,14 @@ body {
         position: absolute;
         font-family: 'Poppins';
         font-size: 7vw;
-        color: #f9f7e8;
+        color: #fff;
         font-weight: bold;
         left: 32vw;
         top: 10vw;
     }
     #firstbody{
         position: absolute;
-        background-color: #f2aa4cff;
+        background-color: #4a9878;
         padding: 13vw 40vw;
         top: 30vw;
         left: 10vw;
@@ -41,14 +41,14 @@ body {
         position: relative;
         font-family: 'Poppins';
         font-size: 6vw;
-        color: #fff;
+        color: #0d1f23;
         font-weight: bold;
         top: 34vw;
         left: 15vw;
     }
     #secondbody{
         position: absolute;
-        background-color: #f2aa4cff;
+        background-color: #4a9878;
         padding: 13vw 40vw;
         top: 65vw;
         left: 10vw;
@@ -59,14 +59,14 @@ body {
         position: relative;
         font-family: 'Poppins';
         font-size: 6vw;
-        color: #fff;
+        color: #0d1f23;
         font-weight: bold;
         top: 60vw;
         left: 15vw;
     }
     #thirdbody{
         position: absolute;
-        background-color: #f2aa4cff;
+        background-color: #4a9878;
         padding: 13vw 40vw;
         top: 100vw;
         left: 10vw;
@@ -77,7 +77,7 @@ body {
         position: relative;
         font-family: 'Poppins';
         font-size: 6vw;
-        color: #fff;
+        color: #0d1f23;
         font-weight: bold;
         top: 86vw;
         left: 15vw;
@@ -114,7 +114,7 @@ body {
     }
     .sp-body {
         position: absolute;
-        background-color: #3b4a61;
+        background-color: #4a9878;
         padding: 50vw 43.5vw;
         top: 44vw;
         left: 6.5vw;
