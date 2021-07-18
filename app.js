@@ -135,16 +135,16 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("06/30/2021");
+        var inputDate = new Date("07/18/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
-            document.getElementById("pre").innerHTML = "T'as perdu une fois.<br>je suis très deçu.<br>";
+            document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
-            document.getElementById("fq").innerHTML = "Comment s'appelle mon<br>frére ?";
-            document.getElementById("b1").innerHTML = "Kamal";
-            document.getElementById("b2").innerHTML = "Mohamed";
-            document.getElementById("b3").innerHTML = "Mohamed Kamal";
-            document.getElementById("b4").innerHTML = "Mohamed Kamal Issam";
+            document.getElementById("fq").innerHTML = "Quel est mon type de<br>film préféré ?";
+            document.getElementById("b1").innerHTML = "Fantastique";
+            document.getElementById("b2").innerHTML = "Policier";
+            document.getElementById("b3").innerHTML = "Aventure";
+            document.getElementById("b4").innerHTML = "Horreur";
     
             $("#b1").click(function() {
                 alert("FAUX, c qui qui vas attendre 24h ?");

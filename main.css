@@ -186,8 +186,9 @@ body {
         font-weight: bold;
         font-size: 5vw;
         opacity: 0;
-        top: 13vw;
-        left: 24vw;
+        top: 1vw;
+        left: 13vw;
+        padding: 10vw 3vw;
         visibility: hidden;
         transition: 1s ease;
     }
@@ -205,7 +206,7 @@ body {
     }
     .tp-body {
         position: absolute;
-        background-color: #3b4a61;
+        background-color: #4a9878;
         padding: 50vw 43.5vw;
         top: 44vw;
         left: 6.5vw;
@@ -226,10 +227,10 @@ body {
     #b1 {
         /*test:*/
         position: absolute;
-        padding: 4vw 10vw;
+        padding: 4vw 5vw;
         background-color: #fff;
-        top: 97vw;
-        left: 12vw;
+        top: 75vw;
+        left: 33vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -240,10 +241,10 @@ body {
     }
     #b2 {
         position: absolute;
-        padding: 4vw 10vw;
+        padding: 4vw 5vw;
         background-color: #fff;
         top: 97vw;
-        left: 48vw;
+        left: 15vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -254,10 +255,10 @@ body {
     }
     #b3 {
         position: absolute;
-        padding: 4vw 10vw;
+        padding: 4vw 5vw;
         background-color: #fff;
-        top: 75vw;
-        left: 23vw;
+        top: 97vw;
+        left: 57vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -268,10 +269,10 @@ body {
     }
     #b4 {
         position: absolute;
-        padding: 4vw 10vw;
+        padding: 4vw 5vw;
         background-color: #fff;
         top: 120vw;
-        left: 17vw;
+        left: 37vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -299,7 +300,7 @@ body {
     /*-----------------------------------------------------------------------------------------------------*/
     .fp-body {
         position: absolute;
-        background-color: #3b4a61;
+        background-color: #4a9878;
         padding: 80vw 43.5vw;
         top: 44vw;
         left: 6.5vw;
@@ -315,7 +316,7 @@ body {
         top: 10vw;
         padding: 0vw 8vw;
         font-weight: bold;
-        color: #2d97ab;
+        color: #4a9878;
     }
     #f-title {
         position: absolute;
