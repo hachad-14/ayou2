@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 575px) {
     body {
-        background-color: #f1ac88ff;
+        background-color: #101820ff;
         height: 15vw;
         position: fixed;
         /*overflow: hidden;*/
@@ -23,14 +23,14 @@ body {
         position: absolute;
         font-family: 'Poppins';
         font-size: 7vw;
-        color: #783937ff;
+        color: #f9f7e8;
         font-weight: bold;
         left: 32vw;
         top: 10vw;
     }
     #firstbody{
         position: absolute;
-        background-color: #fc766aff;
+        background-color: #f2aa4cff;
         padding: 13vw 40vw;
         top: 30vw;
         left: 10vw;
@@ -48,7 +48,7 @@ body {
     }
     #secondbody{
         position: absolute;
-        background-color: #fc766aff;
+        background-color: #f2aa4cff;
         padding: 13vw 40vw;
         top: 65vw;
         left: 10vw;
@@ -66,7 +66,7 @@ body {
     }
     #thirdbody{
         position: absolute;
-        background-color: #fc766aff;
+        background-color: #f2aa4cff;
         padding: 13vw 40vw;
         top: 100vw;
         left: 10vw;
