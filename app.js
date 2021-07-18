@@ -140,11 +140,6 @@ $(document).ready(function() {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
-            document.getElementById("fq").innerHTML = "Quel est mon type de<br>film préféré ?";
-            document.getElementById("b1").innerHTML = "Fantastique";
-            document.getElementById("b2").innerHTML = "Policier";
-            document.getElementById("b3").innerHTML = "Aventure";
-            document.getElementById("b4").innerHTML = "Horreur";
     
             $("#b1").click(function() {
                 alert("FAUX, c qui qui vas attendre 24h ?");
@@ -154,7 +149,7 @@ $(document).ready(function() {
             });
             //vrai------------------------------------
             $("#b3").click(function() {
-               alert("HHHHH jcroyais t'allais pas l'avoir juste, j'ai toujour pas fais lautre partie du quizz.")
+                createCookie('q2', true, 1);
             });
             $("#b4").click(function() {
                 alert("FAUX, c qui qui vas attendre 24h ?");
