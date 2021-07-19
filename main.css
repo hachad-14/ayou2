@@ -36,6 +36,7 @@ body {
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 1);
     }
     .fb-title {
         position: relative;
@@ -54,6 +55,7 @@ body {
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 1);
     }
     .sb-title {
         position: relative;
@@ -72,6 +74,7 @@ body {
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 1);
     }
     .tb-title {
         position: relative;
