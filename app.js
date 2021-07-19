@@ -1,11 +1,15 @@
 $(document).ready(function() {
     $("#sp-arrow").click(function() {
         document.getElementById("main-page").style.visibility = "visible";
+        document.getElementById("second-page").style.transition = "ease 0.1s";
+        document.getElementById("second-page").style.opacity = "0";
         document.getElementById("second-page").style.visibility = "hidden";
         document.getElementById("sp-arrow").style.visibility = "hidden";
     });
     $("#firstbody").click(function() {
         document.getElementById("main-page").style.visibility = "hidden";
+        document.getElementById("second-page").style.transition = "ease 0.8s";
+        document.getElementById("second-page").style.opacity = "1";
         document.getElementById("second-page").style.visibility = "visible";
         document.getElementById("sp-arrow").style.visibility = "visible";
 
@@ -137,7 +141,7 @@ $(document).ready(function() {
 
         var inputDate = new Date("07/19/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
+            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>8/10"
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
     

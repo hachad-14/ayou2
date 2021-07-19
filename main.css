@@ -83,6 +83,7 @@ body {
         left: 15vw;
     }
     #main-page {
+        opacity: inherit;
         visibility: visible;
     }
     #second-page {
