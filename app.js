@@ -1,15 +1,11 @@
 $(document).ready(function() {
     $("#sp-arrow").click(function() {
         document.getElementById("main-page").style.visibility = "visible";
-        document.getElementById("second-page").style.transition = "ease 0.1s";
-        document.getElementById("second-page").style.opacity = "0";
         document.getElementById("second-page").style.visibility = "hidden";
         document.getElementById("sp-arrow").style.visibility = "hidden";
     });
     $("#firstbody").click(function() {
         document.getElementById("main-page").style.visibility = "hidden";
-        document.getElementById("second-page").style.transition = "ease 0.8s";
-        document.getElementById("second-page").style.opacity = "1";
         document.getElementById("second-page").style.visibility = "visible";
         document.getElementById("sp-arrow").style.visibility = "visible";
 
@@ -141,7 +137,7 @@ $(document).ready(function() {
 
         var inputDate = new Date("07/19/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>8/10"
+            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
             document.getElementById("pre1").innerHTML = "Allez on commence !!!";
     
@@ -252,7 +248,7 @@ $(document).ready(function() {
             document.body.style.position = "fixed"; 
         });
         document.getElementById("f-title").innerHTML = "Pour nos 2 mois.";
-        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est nos deux mois. Oui, moi aussi je n'arrive pas à y croire. Deux putain de gros mois en te supportant, écoute je profite de l'occasion pour te dire que... je casse. Non plus sérieusement mon coeur, ces deux mois ça a été les deux mois les plus beaux de ma vie en étant en couple, je le redis; je sais pas ce que jai fais pour te mériter, t'es tellement bénéfique pour moi, tu m'apportes la joix, le bonheur, et tout ce qu'il y'a de plus bon sur cette terre et j'éspère ètre aussi bénèfique pour toi, et aussi je continuerais à m'améliorer. Bref à nos deux mois, à nous.<br>La lune est putainement belle.";
+        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est nos deux mois. Oui, moi aussi je n'arrive pas à y croire. Deux putain de gros mois en te supportant, écoute je profite de l'occasion pour te dire que... je casse. Non plus sérieusement mon coeur, ces deux mois ça a été les deux mois les plus beaux de ma vie en étant en couple, je le redis; je sais pas ce que jai fais pour te mériter, t'es tellement bénéfique pour moi, tu m'apportes la joix, le bonheur, et tout ce qu'il y'a de plud bon sur cette terre et j'éspère ètre aussi bénèfique pour toi, et aussi je continuerais à m'améliorer. Bref à nos deux mois, à nous.<br>La lune est putainement belle.";
         
         document.body.style.position = "absolute"; 
     });
