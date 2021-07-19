@@ -252,7 +252,7 @@ $(document).ready(function() {
             document.body.style.position = "fixed"; 
         });
         document.getElementById("f-title").innerHTML = "Pour nos 2 mois.";
-        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est nos deux mois. Oui, moi aussi je n'arrive pas à y croire. Deux putain de gros mois en te supportant, écoute je profite de l'occasion pour te dire que... je casse. Non plus sérieusement mon coeur, ces deux mois ça a été les deux mois les plus beaux de ma vie en étant en couple, je le redis; je sais pas ce que jai fais pour te mériter, t'es tellement bénéfique pour moi, tu m'apportes la joix, le bonheur, et tout ce qu'il y'a de plud bon sur cette terre et j'éspère ètre aussi bénèfique pour toi, et aussi je continuerais à m'améliorer. Bref à nos deux mois, à nous.<br>La lune est putainement belle.";
+        document.getElementById("f-txt").innerHTML = "Aujourd'hui, c'est nos deux mois. Oui, moi aussi je n'arrive pas à y croire. Deux putain de gros mois en te supportant, écoute je profite de l'occasion pour te dire que... je casse. Non plus sérieusement mon coeur, ces deux mois ça a été les deux mois les plus beaux de ma vie en étant en couple, je le redis; je sais pas ce que jai fais pour te mériter, t'es tellement bénéfique pour moi, tu m'apportes la joix, le bonheur, et tout ce qu'il y'a de plus bon sur cette terre et j'éspère ètre aussi bénèfique pour toi, et aussi je continuerais à m'améliorer. Bref à nos deux mois, à nous.<br>La lune est putainement belle.";
         
         document.body.style.position = "absolute"; 
     });
