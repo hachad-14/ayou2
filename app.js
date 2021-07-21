@@ -135,7 +135,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("07/20/2021");
+        var inputDate = new Date("07/21/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>9/10"
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
