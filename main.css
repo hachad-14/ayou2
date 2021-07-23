@@ -16,6 +16,9 @@ body {
         position: fixed;
         /*overflow: hidden;*/
     }
+    #count {
+        display: none;
+    }
     .boxes {
         position: absolute;
     }
