@@ -8,7 +8,7 @@ $(document).ready(function() {
       $('#quizz-page').show();
       $('#wm').hide();
     } else {
-        $('#quizz-page').show();
+        $('#quizz-page').hide();
         $('#wm').show();
         document.getElementById("wm").innerHTML = "Les 24h ne sont toujours pas passés";
         console.log("cookies présents");
@@ -285,9 +285,9 @@ $(document).ready(function() {
   }
   function fifth_q() {
     document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
-    document.getElementById("b1").innerHTML = "Ingenieur à la Nasa";
+    document.getElementById("b1").innerHTML = "Médecin";
     document.getElementById("b2").innerHTML = "Astronaute";
-    document.getElementById("b3").innerHTML = "Médecin";
+    document.getElementById("b3").innerHTML = "Ingenieur à la Nasa";
     document.getElementById("b4").innerHTML = "Policier";
     console.log("cookies de fifth_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
