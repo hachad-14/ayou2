@@ -8,7 +8,7 @@ $(document).ready(function() {
       $('#quizz-page').show();
       $('#wm').hide();
     } else {
-        $('#quizz-page').hide();
+        $('#quizz-page').show();
         $('#wm').show();
         document.getElementById("wm").innerHTML = "Les 24h ne sont toujours pas passés";
         console.log("cookies présents");
