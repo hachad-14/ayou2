@@ -111,7 +111,7 @@ $(document).ready(function() {
           document.getElementById("b4").innerHTML = "Etre heureux";
           $('#b1, #b2, #b4').on('click', faux_alerte);
           $("#b3").click(function() {
-            document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+            document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
             document.getElementById("b1").innerHTML = "Astronaute";
             document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
             document.getElementById("b3").innerHTML = "Médecin";
@@ -223,7 +223,7 @@ $(document).ready(function() {
       document.getElementById("b4").innerHTML = "Etre heureux";
       $('#b1, #b2, #b4').on('click', faux_alerte);
       $("#b3").click(function() {
-        document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+        document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
         document.getElementById("b1").innerHTML = "Astronaute";
         document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
         document.getElementById("b3").innerHTML = "Médecin";
@@ -261,10 +261,10 @@ $(document).ready(function() {
     console.log("cookies de forth_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
-      document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+      document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
         document.getElementById("b1").innerHTML = "Astronaute";
-        document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
-        document.getElementById("b3").innerHTML = "Médecin";
+        document.getElementById("b2").innerHTML = "Médecin";
+        document.getElementById("b3").innerHTML = "Ingenieur à la Nasa";
         document.getElementById("b4").innerHTML = "Policier";
         $('#b1, #b2, #b4').on('click', faux_alerte);
         $("#b3").click(function() {
@@ -284,7 +284,7 @@ $(document).ready(function() {
     });
   }
   function fifth_q() {
-    document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+    document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
     document.getElementById("b1").innerHTML = "Ingenieur à la Nasa";
     document.getElementById("b2").innerHTML = "Astronaute";
     document.getElementById("b3").innerHTML = "Médecin";
