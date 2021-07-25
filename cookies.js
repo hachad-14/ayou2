@@ -8,8 +8,8 @@ $(document).ready(function() {
       $('#quizz-page').show();
       $('#wm').hide();
     } else {
-        $('#quizz-page').hide();
-        $('#wm').show();
+        $('#quizz-page').show();
+        $('#wm').hide();
         document.getElementById("wm").innerHTML = "Les 24h ne sont toujours pas passés";
         console.log("cookies présents");
     }
@@ -105,9 +105,9 @@ $(document).ready(function() {
         $('#b1, #b2, #b4').on('click', faux_alerte);
         $("#b3").click(function() {
           document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
-          document.getElementById("b1").innerHTML = "Avoir la santé";
+          document.getElementById("b1").innerHTML = "Etre populaire";
           document.getElementById("b2").innerHTML = "Etre riche";
-          document.getElementById("b3").innerHTML = "Etre populaire";
+          document.getElementById("b3").innerHTML = "Avoir la santé";
           document.getElementById("b4").innerHTML = "Etre heureux";
           $('#b1, #b2, #b4').on('click', faux_alerte);
           $("#b3").click(function() {
@@ -171,7 +171,7 @@ $(document).ready(function() {
         document.getElementById("b4").innerHTML = "Etre heureux";
         $('#b1, #b2, #b4').on('click', faux_alerte);
         $("#b3").click(function() {
-          document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petite ?";
+          document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
           document.getElementById("b1").innerHTML = "Astronaute";
           document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
           document.getElementById("b3").innerHTML = "Médecin";
