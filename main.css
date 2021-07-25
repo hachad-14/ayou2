@@ -17,7 +17,9 @@ body {
         /*overflow: hidden;*/
     }
     #count {
-        display: none;
+        display: -moz-grid-line;
+        color: #fff;
+        font-family: 'Poppins';
     }
     .boxes {
         position: absolute;
