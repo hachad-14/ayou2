@@ -127,6 +127,7 @@ $(document).ready(function() {
         document.getElementById("third-page").style.visibility = "visible";
         document.getElementById("tp-arrow").style.visibility = "visible";
         document.getElementById("pre").style.visibility = "visible";
+        //projet de la cia
         document.getElementById("b1").style.visibility = "visible";
         document.getElementById("b2").style.visibility = "visible";
         document.getElementById("b3").style.visibility = "visible";
@@ -135,7 +136,7 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("07/21/2021");
+        var inputDate = new Date("07/25/2021");
         if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
             document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>8/10"
             document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
