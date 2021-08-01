@@ -61,22 +61,18 @@ $(document).ready(function() {
     second_q();
   }
   if (!readCookie('q3')) {
-    console.log("");
   } else {
     third_q();
   }
   if (!readCookie('q4')) {
-    console.log("");
   } else {
     third_q();
   }
   if (!readCookie('q5')) {
-    console.log("");
   } else {
     forth_q();
   }
   if (!readCookie('q6')) {
-    console.log("");
   } else {
     fifth_q();
   }
