@@ -138,7 +138,7 @@ $(document).ready(function() {
 
         //var inputDate = new Date("07/26/2021");
         //if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>7/10"
+        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>5/10"
         document.getElementById("pre").innerHTML = "Deuxième partie du quizz,<br>C'est pas ton niveaux.";
         document.getElementById("pre1").innerHTML = "Allez on commence !!!";
 
