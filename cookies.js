@@ -56,9 +56,9 @@ $(document).ready(function() {
 //******************************************************************************************************
 
   if (!readCookie('q2')) {
-    first_q();
+    third_q()
   } else {
-    second_q();
+    third_q()
   }
   if (!readCookie('q3')) {
   } else {
@@ -228,28 +228,53 @@ $(document).ready(function() {
     });
   }
   function third_q() {
-    document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
-    document.getElementById("b1").innerHTML = "Jalousie";
-    document.getElementById("b2").innerHTML = "Colérique";
-    document.getElementById("b3").innerHTML = "Insolent";
-    document.getElementById("b4").innerHTML = "Arrogant";
+    document.getElementById("fq").innerHTML = "De quoi je suis le plus fière ?";
+    document.getElementById("b1").innerHTML = "Etre têtu quand il le faut.";
+    document.getElementById("b2").innerHTML = "Ma rapidité d'intelligence.";
+    document.getElementById("b3").innerHTML = "Changement de caractère rapide.";
+    document.getElementById("b4").innerHTML = "Toujours ambitieux.";
+    document.getElementById("b1").style.padding = "4vw 5vw"
+    document.getElementById("b2").style.padding = "4vw 5vw"
+    document.getElementById("b3").style.padding = "4vw 1.7vw"
+    document.getElementById("b4").style.padding = "4vw 3vw"
+    document.getElementById("b1").style.left = "15vw"
+    document.getElementById("b2").style.left = "15vw"
+    document.getElementById("b3").style.left = "15vw"
+    document.getElementById("b4").style.left = "15vw"
+    document.getElementById("b1").style.top = "70vw"
+    document.getElementById("b2").style.top = "89vw"
+    document.getElementById("b3").style.top = "107vw"
+    document.getElementById("b4").style.top = "125vw"
     console.log("cookies de third_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
-      document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
-      document.getElementById("b1").innerHTML = "Etre populaire";
-      document.getElementById("b2").innerHTML = "Etre riche";
-      document.getElementById("b3").innerHTML = "Avoir la santé";
-      document.getElementById("b4").innerHTML = "Etre heureux";
+      document.getElementById("fq").innerHTML = "Si on me donnait 4 voeux, je choisirais quoi ?";
+      document.getElementById("b1").innerHTML = "Avoir 10 voeux de plus.";
+      document.getElementById("b2").innerHTML = "Etre riche.";
+      document.getElementById("b3").innerHTML = "Avoir une bonne santé toute ma vie.";
+      document.getElementById("b4").innerHTML = "Etre heureux même dans le pire.";
+      document.getElementById("b1").style.padding = "4vw 5vw"
+      document.getElementById("b2").style.padding = "4vw 5vw"
+      document.getElementById("b3").style.padding = "4vw 1.7vw"
+      document.getElementById("b4").style.padding = "4vw 3vw"
+      document.getElementById("b1").style.left = "15vw"
+      document.getElementById("b2").style.left = "15vw"
+      document.getElementById("b3").style.left = "15vw"
+      document.getElementById("b4").style.left = "15vw"
+      document.getElementById("b1").style.top = "70vw"
+      document.getElementById("b2").style.top = "89vw"
+      document.getElementById("b3").style.top = "107vw"
+      document.getElementById("b4").style.top = "125vw"
       $('#b1, #b2, #b4').on('click', faux_alerte);
       $("#b3").click(function() {
-        document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
-        document.getElementById("b1").innerHTML = "Astronaute";
-        document.getElementById("b2").innerHTML = "Ingenieur à la Nasa";
-        document.getElementById("b3").innerHTML = "Médecin";
-        document.getElementById("b4").innerHTML = "Policier";
+        document.getElementById("fq").innerHTML = "Qui est la chose ou personne qui t’as appris le plus de choses ?";
+        document.getElementById("b1").innerHTML = "La rue.";
+        document.getElementById("b2").innerHTML = "Ma mère.";
+        document.getElementById("b3").innerHTML = "Mon entourage.";
+        document.getElementById("b4").innerHTML = "Moi même.";
         $('#b1, #b2, #b4').on('click', faux_alerte);
         $("#b3").click(function() {
+          alert("Code à envoyer: 1980")
           createCookie('q6', true, 1);
           eraseCookie();
           function eraseCookie(name) {
@@ -273,24 +298,36 @@ $(document).ready(function() {
     });
   }
   function forth_q() {
-    document.getElementById("fq").innerHTML = "Pour moi, le plus important c'est :";
-    document.getElementById("b1").innerHTML = "Etre populaire";
-    document.getElementById("b2").innerHTML = "Etre riche";
-    document.getElementById("b3").innerHTML = "Avoir la santé";
-    document.getElementById("b4").innerHTML = "Etre heureux";
-    console.log("cookies de forth_q présents");
+    document.getElementById("fq").innerHTML = "Si on me donnait 4 voeux, je choisirais quoi ?";
+      document.getElementById("b1").innerHTML = "Avoir 10 voeux de plus.";
+      document.getElementById("b2").innerHTML = "Etre riche.";
+      document.getElementById("b3").innerHTML = "Avoir une bonne santé toute ma vie.";
+      document.getElementById("b4").innerHTML = "Etre heureux même dans le pire.";
+      document.getElementById("b1").style.padding = "4vw 5vw"
+      document.getElementById("b2").style.padding = "4vw 5vw"
+      document.getElementById("b3").style.padding = "4vw 1.7vw"
+      document.getElementById("b4").style.padding = "4vw 3vw"
+      document.getElementById("b1").style.left = "15vw"
+      document.getElementById("b2").style.left = "15vw"
+      document.getElementById("b3").style.left = "15vw"
+      document.getElementById("b4").style.left = "15vw"
+      document.getElementById("b1").style.top = "70vw"
+      document.getElementById("b2").style.top = "89vw"
+      document.getElementById("b3").style.top = "107vw"
+      document.getElementById("b4").style.top = "125vw"
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
-      document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
-        document.getElementById("b1").innerHTML = "Astronaute";
-        document.getElementById("b2").innerHTML = "Médecin";
-        document.getElementById("b3").innerHTML = "Ingenieur à la Nasa";
-        document.getElementById("b4").innerHTML = "Policier";
+        document.getElementById("fq").innerHTML = "Qui est la chose ou personne qui t’as appris le plus de choses ?";
+        document.getElementById("b1").innerHTML = "La rue.";
+        document.getElementById("b2").innerHTML = "Ma mère.";
+        document.getElementById("b3").innerHTML = "Mon entourage.";
+        document.getElementById("b4").innerHTML = "Moi même.";
         $('#b1, #b2, #b4').on('click', faux_alerte);
         $("#b3").click(function() {
           createCookie('q6', true, 1);
           eraseCookie();
           function eraseCookie(name) {
+            alert("Code à envoyer: 1980")
             console.log("cookies suprrimés");
             createCookie(name,"",-1);
           }
@@ -304,11 +341,11 @@ $(document).ready(function() {
     });
   }
   function fifth_q() {
-    document.getElementById("fq").innerHTML = "Ce que je rêvais d'être quand j'étais petit ?";
-    document.getElementById("b1").innerHTML = "Médecin";
-    document.getElementById("b2").innerHTML = "Astronaute";
-    document.getElementById("b3").innerHTML = "Ingenieur à la Nasa";
-    document.getElementById("b4").innerHTML = "Policier";
+    document.getElementById("fq").innerHTML = "Qui est la chose ou personne qui t’as appris le plus de choses ?";
+    document.getElementById("b1").innerHTML = "La rue.";
+    document.getElementById("b2").innerHTML = "Ma mère.";
+    document.getElementById("b3").innerHTML = "Mon entourage.";
+    document.getElementById("b4").innerHTML = "Moi même.";
     console.log("cookies de fifth_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
