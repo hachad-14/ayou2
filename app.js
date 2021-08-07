@@ -136,86 +136,84 @@ $(document).ready(function() {
 
         var todaysDate = new Date();
 
-        var inputDate = new Date("07/26/2021");
-        if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-            document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>7/10"
-            document.getElementById("pre").innerHTML = "Quizz enfin réparé,<br>tkt pas ça m'as pas pris 2j.<br>";
-            document.getElementById("pre1").innerHTML = "Allez on commence !!!";
-    
-            //$("#b1").click(function() {
-            //    alert("FAUXg, c qui qui vas attendre 24h ?");
-            //    $('#wm').show();
-            //});
-            //$("#b2").click(function() {
-            //    alert("FAUX, c qui qui vas attendre 24h ?");
-            //    $('#wm').show();
-            //});
-            //vrai------------------------------------
-            $("#b3").click(function() {
-                createCookie('q2', true, 1);
-            });
-            //$("#b4").click(function() {
-            //    alert("FAUX, c qui qui vas attendre 24h ?");
-            //    $('#wm').show();
-            //});
+        //var inputDate = new Date("07/26/2021");
+        //if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>7/10"
+        document.getElementById("pre").innerHTML = "Deuxième partie du quizz,<br>C'est pas ton niveaux.";
+        document.getElementById("pre1").innerHTML = "Allez on commence !!!";
 
-            if($('#pre').is(':visible')){
-                setTimeout( function(){ 
-                    document.getElementById("pre").style.visibility = "visible";
-                    document.getElementById("pre").style.opacity = "0";
-                    document.getElementById("pre").style.top = "-20";
-                    document.getElementById("pre").style.left = "-1";
-                    console.log("1");
-
-                }, 0500 );
-                setTimeout( function(){ 
-                    document.getElementById("pre").style.visibility = "visible";
-                    document.getElementById("pre").style.opacity = "1";
-                    document.getElementById("pre").style.top = "5";
-                    document.getElementById("pre").style.left = "-1";
-                    console.log("1");
-                }, 1000 );
-                setTimeout( function(){ 
-                    document.getElementById("pre").style.visibility = "visible";
-                    document.getElementById("pre").style.opacity = "0";
-                    document.getElementById("pre").style.top = "5";
-                    document.getElementById("pre").style.left = "100";
-                    console.log("1");
-                }, 5000 );
-            }
-            
-            if($('#redscreen').is(':visible')){
-                setTimeout( function(){ 
-                    document.getElementById("redscreen").style.visibility = "hidden";
-                }, 3000 );
-            }
-            if($('#greenscreen').is(':visible')){
-                setTimeout( function(){ 
-                    document.getElementById("greenscreen").style.visibility = "hidden";
-                }, 3000 );
-            }
-    
+        //$("#b1").click(function() {
+        //    alert("FAUXg, c qui qui vas attendre 24h ?");
+        //    $('#wm').show();
+        //});
+        //$("#b2").click(function() {
+        //    alert("FAUX, c qui qui vas attendre 24h ?");
+        //    $('#wm').show();
+        //});
+        //vrai------------------------------------
+        $("#b3").click(function() {
+            createCookie('q2', true, 1);
+        });
+        //$("#b4").click(function() {
+        //    alert("FAUX, c qui qui vas attendre 24h ?");
+        //    $('#wm').show();
+        //});
+        if($('#pre').is(':visible')){
             setTimeout( function(){ 
-                document.getElementById("pre1").style.opacity = "1";
-            }, 7000 );
+                document.getElementById("pre").style.visibility = "visible";
+                document.getElementById("pre").style.opacity = "0";
+                //document.getElementById("pre").style.top = "-20";
+                //document.getElementById("pre").style.left = "-1";
+                console.log("1");
+            }, 0500 );
             setTimeout( function(){ 
-                document.getElementById("pre1").style.opacity = "0";
-            }, 10000 );
+                document.getElementById("pre").style.visibility = "visible";
+                document.getElementById("pre").style.opacity = "1";
+                //document.getElementById("pre").style.top = "5";
+                //document.getElementById("pre").style.left = "-1";
+                console.log("1");
+            }, 1000 );
             setTimeout( function(){ 
-                document.getElementById("nbd").style.opacity = "1";
-            }, 11500);
-            setTimeout( function(){ 
-                document.getElementById("fq").style.opacity = "1";
-                document.getElementById("b1").style.visibility = "visible";
-                document.getElementById("b2").style.visibility = "visible";
-                document.getElementById("b3").style.visibility = "visible";
-                document.getElementById("b4").style.visibility = "visible";
-                document.getElementById("b1").style.opacity = "1";
-                document.getElementById("b2").style.opacity = "1";
-                document.getElementById("b3").style.opacity = "1";
-                document.getElementById("b4").style.opacity = "1";
-            }, 12000 );
+                document.getElementById("pre").style.visibility = "visible";
+                document.getElementById("pre").style.opacity = "0";
+                //document.getElementById("pre").style.top = "5";
+                //document.getElementById("pre").style.left = "100";
+                console.log("1");
+            }, 5000 );
         }
+        
+        if($('#redscreen').is(':visible')){
+            setTimeout( function(){ 
+                document.getElementById("redscreen").style.visibility = "hidden";
+            }, 3000 );
+        }
+        if($('#greenscreen').is(':visible')){
+            setTimeout( function(){ 
+                document.getElementById("greenscreen").style.visibility = "hidden";
+            }, 3000 );
+        }
+
+        setTimeout( function(){ 
+            document.getElementById("pre1").style.opacity = "1";
+        }, 7000 );
+        setTimeout( function(){ 
+            document.getElementById("pre1").style.opacity = "0";
+        }, 10000 );
+        setTimeout( function(){ 
+            document.getElementById("nbd").style.opacity = "1";
+        }, 11500);
+        setTimeout( function(){ 
+            document.getElementById("fq").style.opacity = "1";
+            document.getElementById("b1").style.visibility = "visible";
+            document.getElementById("b2").style.visibility = "visible";
+            document.getElementById("b3").style.visibility = "visible";
+            document.getElementById("b4").style.visibility = "visible";
+            document.getElementById("b1").style.opacity = "1";
+            document.getElementById("b2").style.opacity = "1";
+            document.getElementById("b3").style.opacity = "1";
+            document.getElementById("b4").style.opacity = "1";
+        }, 12000 );
+        //}
     
         var inputDate1 = new Date("06/23/2021");
         if(inputDate1.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {

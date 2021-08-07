@@ -78,19 +78,31 @@ $(document).ready(function() {
   }
 
   function first_q() {
-    document.getElementById("fq").innerHTML = "Quel est mon type de<br>film préféré ?";
-    document.getElementById("b1").innerHTML = "Fantastique";
-    document.getElementById("b2").innerHTML = "Policier";
-    document.getElementById("b3").innerHTML = "Aventure";
-    document.getElementById("b4").innerHTML = "Horreur";
+    document.getElementById("fq").innerHTML = "Qu’est-ce qui m’inquiète le plus à l'avenir ?";
+    document.getElementById("b1").innerHTML = "Mourrir.";
+    document.getElementById("b2").innerHTML = "Pauvreté.";
+    document.getElementById("b3").innerHTML = "Echouer.";
+    document.getElementById("b4").innerHTML = "Prison.";
     console.log("cookies de first_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
-      document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
-      document.getElementById("b1").innerHTML = "La casa de papel";
-      document.getElementById("b2").innerHTML = "Sherlock";
-      document.getElementById("b3").innerHTML = "Narcos";
-      document.getElementById("b4").innerHTML = "Game of thrones";
+      document.getElementById("fq").innerHTML = "Ou j'me vois dans 25 ans ?(avec toi)";
+      document.getElementById("b1").innerHTML = "Riche, grosse maison, voitures.";
+      document.getElementById("b2").innerHTML = "Célibataire, dépressif.";
+      document.getElementById("b3").innerHTML = "A la tete d'une grosse boite.";
+      document.getElementById("b4").innerHTML = "Retraité, profite de ma fortune.";
+      ocument.getElementById("b1").style.padding = "4vw 5vw"
+    document.getElementById("b2").style.padding = "4vw 5vw"
+    document.getElementById("b3").style.padding = "4vw 5vw"
+    document.getElementById("b4").style.padding = "4vw 3vw"
+    document.getElementById("b1").style.left = "15vw"
+    document.getElementById("b2").style.left = "15vw"
+    document.getElementById("b3").style.left = "15vw"
+    document.getElementById("b4").style.left = "15vw"
+    document.getElementById("b1").style.top = "70vw"
+    document.getElementById("b2").style.top = "89vw"
+    document.getElementById("b3").style.top = "107vw"
+    document.getElementById("b4").style.top = "125vw"
       $('#b1, #b2, #b4').on('click', faux_alerte);
       $("#b3").click(function() {
         document.getElementById("fq").innerHTML = "Mon plus grand défaut ?";
@@ -145,11 +157,23 @@ $(document).ready(function() {
     });
   }
   function second_q() {
-    document.getElementById("fq").innerHTML = "Quelles est ma série préférée ?";
-    document.getElementById("b1").innerHTML = "La casa de papel";
-    document.getElementById("b2").innerHTML = "Sherlock";
-    document.getElementById("b3").innerHTML = "Narcos";
-    document.getElementById("b4").innerHTML = "Game of thrones";
+    document.getElementById("fq").innerHTML = "Ou j'me vois dans 25 ans ?(avec toi)";
+    document.getElementById("b1").innerHTML = "Riche, grosse maison, voitures.";
+    document.getElementById("b2").innerHTML = "Célibataire, dépressif.";
+    document.getElementById("b3").innerHTML = "A la tete d'une grosse boite.";
+    document.getElementById("b4").innerHTML = "Retraité, profite de ma fortune.";
+    document.getElementById("b1").style.padding = "4vw 5vw"
+    document.getElementById("b2").style.padding = "4vw 5vw"
+    document.getElementById("b3").style.padding = "4vw 5vw"
+    document.getElementById("b4").style.padding = "4vw 3vw"
+    document.getElementById("b1").style.left = "15vw"
+    document.getElementById("b2").style.left = "15vw"
+    document.getElementById("b3").style.left = "15vw"
+    document.getElementById("b4").style.left = "15vw"
+    document.getElementById("b1").style.top = "70vw"
+    document.getElementById("b2").style.top = "89vw"
+    document.getElementById("b3").style.top = "107vw"
+    document.getElementById("b4").style.top = "125vw"
     console.log("cookies de second_q présents");
     $('#b1, #b2, #b4').on('click', faux_alerte);
     $("#b3").click(function() {
