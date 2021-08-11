@@ -138,7 +138,7 @@ $(document).ready(function() {
 
         //var inputDate = new Date("07/26/2021");
         //if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>5/5"
+        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>3/5"
         document.getElementById("pre").innerHTML = "Bref fréro, t'as 5 questions faaacillees.";
         document.getElementById("pre1").innerHTML = "Allez on commence !!!";
 
